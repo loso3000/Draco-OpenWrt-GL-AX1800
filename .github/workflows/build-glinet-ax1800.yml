@@ -34,8 +34,8 @@ env:
   REPO_BRANCH: main
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
-  UPLOAD_WETRANSFER: true
-  UPLOAD_RELEASE: true
+  UPLOAD_WETRANSFER: flase
+  UPLOAD_RELEASE: flase
   TZ: Asia/Shanghai
 
 jobs:
