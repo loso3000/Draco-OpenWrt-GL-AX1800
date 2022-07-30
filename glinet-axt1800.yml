@@ -49,4 +49,4 @@ packages:
   - luci-app-ttyd
   - luci-app-serverchan
   - luci-app-bypass
-  - luci-app-vssr
+  - luci-app-ssr-plus=y
