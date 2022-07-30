@@ -33,23 +33,20 @@ feeds:
     revision: 5afbe3bba9a2953f506074cc0d943580a38f589e
 include: []
 packages:
+  - kmod-hwmon-pwmfan
   - wireless-regdb
   - wget-ssl
   - kmod-wireguard-backport
   - luci-theme-argon
-  - luci-app-argon-config
   - luci-app-ramfree
   - luci-app-wol
   - luci-app-diskman
   - luci-app-smartdns
   - luci-app-openclash
-  - luci-app-aria2
   - luci-app-zerotier
   - luci-app-turboacc
-  - luci-app-xlnetacc
-  - luci-app-appfilter
   - luci-app-cpufreq
   - luci-app-ttyd
   - luci-app-serverchan
-  - luci-app-transmission
-  - luci-app-dailybonus
+  - luci-app-bypass
+  - luci-app-ssr-plus=y
