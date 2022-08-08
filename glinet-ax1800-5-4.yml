@@ -50,3 +50,5 @@ packages:
   - luci-app-serverchan
   - luci-app-transmission
   - luci-app-dailybonus
+  - luci-app-bypass
+  - luci-app-ssr-plus
