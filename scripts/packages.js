@@ -89,6 +89,10 @@ module.exports = [
     name: 'luci-app-ssr-plus',
     desc: 'ssr-plus 代理软件',
   },
+    {
+    name: 'luci-app-bypass',
+    desc: 'bypass 代理软件',
+  },
   // {
   //   name: 'luci-app-aliddns',
   //   desc: '阿里云ddns插件',
