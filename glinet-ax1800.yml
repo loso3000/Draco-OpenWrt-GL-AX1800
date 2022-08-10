@@ -50,3 +50,4 @@ packages:
   - luci-app-serverchan
   - luci-app-bypass
   - luci-app-ssr-plus
+  - luci-app-passwall
