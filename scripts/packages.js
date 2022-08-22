@@ -85,10 +85,10 @@ module.exports = [
    name: 'luci-app-passwall',
     desc: 'passwall代理软件',
   },
-  {
-    name: 'luci-app-ssr-plus',
-    desc: 'ssr-plus 代理软件',
-  },
+  // {
+  //   name: 'luci-app-ssr-plus',
+  //   desc: 'ssr-plus 代理软件',
+  // },
     {
     name: 'luci-app-bypass',
     desc: 'bypass 代理软件',
@@ -125,10 +125,10 @@ module.exports = [
   //   name: 'luci-app-wrtbwmon',
   //   desc: '实时流量监测',
   // },
-  {
-    name: 'luci-app-serverchan',
-    desc: '微信/Telegram推送',
-  },
+   //  {
+   //    name: 'luci-app-serverchan',
+   //    desc: '微信/Telegram推送',
+   //  },
   //{
   //  name: 'luci-app-transmission',
   //  desc: 'BT下载工具',

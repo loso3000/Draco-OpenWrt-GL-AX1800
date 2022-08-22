@@ -74,7 +74,7 @@ jobs:
         cd /workdir/gl-infra-builder
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@github.com"
-        python3 setup.py -c ${config}.yml
+        python3 setup.py -c configs/${config}.yml
 
     - name: Download package
       id: package
@@ -150,7 +150,7 @@ jobs:
         echo "::set-output name=release_tag::${modelUpper}-$(date +"%Y.%m.%d-%H.%M")"
         touch release.txt
         echo "${releaseTitle}" >> release.txt
-        [ $UPLOAD_WETRANSFER = true ] && echo "- 🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
+        [ $UPLOAD_WETRANSFER = true ] && echo "-xm [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
         echo -e ${releasePackages} >> release.txt
         echo "::set-output name=status::success"
 

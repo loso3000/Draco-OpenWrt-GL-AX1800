@@ -9,7 +9,7 @@ feeds:
     path: ../../feeds/ipq807x
   - name: gl_feeds_common
     uri: https://github.com/gl-inet/gl-feeds.git
-    revision: 5e7430fabf8eede48f4c085997a29aeb7b76ce2d
+    revision: 6d36fa8b49061674c709c40b8c3ed5881be3190a
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
@@ -17,25 +17,23 @@ feeds:
     uri: https://github.com/destan19/OpenAppFilter.git
     branch: oaf-5.1.0
     revision: 04b701357c271a1bf97afa5dbfbfd02f4861aa25
-  - name: immortalwrt_luci
-    uri: https://github.com/immortalwrt/luci.git
-    branch: openwrt-21.02
-    revision: 786e681d614ca9d4da771e993e9ba12f587c036f
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 7d7daa8c5c19065cc71dd17623797403ffd591e6
+    revision: e15790e539ca8ce5b0af93303dbc1ac634846c02
+  - name: immortalwrt_luci
+    uri: https://github.com/immortalwrt/luci.git
+    branch: openwrt-21.02
+    revision: fff051ef29580d59e125b182182f82a9dd5392b8
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
-    revision: 5afbe3bba9a2953f506074cc0d943580a38f589e
+    revision: 3f1d3df75bb7bbe885f59a58dfd2e297287aa9e2
 include:
   - wifi-ax
 packages:
   - kmod-hwmon-pwmfan
-  - wireless-regdb
   - wget-ssl
-  - kmod-wireguard-backport
   - luci-theme-argon
   - luci-app-ramfree
   - luci-app-wol
