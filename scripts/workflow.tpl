@@ -150,7 +150,7 @@ jobs:
         echo "::set-output name=release_tag::${modelUpper}-$(date +"%Y.%m.%d-%H.%M")"
         touch release.txt
         echo "${releaseTitle}" >> release.txt
-        [ $UPLOAD_WETRANSFER = true ] && echo "-xm [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
+        [ $UPLOAD_WETRANSFER = true ] && echo "-gl [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
         echo -e ${releasePackages} >> release.txt
         echo "::set-output name=status::success"
 
