@@ -9,14 +9,14 @@ module.exports = [
     name: 'luci-theme-argon',
     desc: 'argon主题',
   },
- // {
- //   name: 'luci-app-argon-config',
- //   desc: 'argon主题设置',
- // },
   {
-    name: 'luci-app-store',
-    desc: '应用商店',
+    name: 'luci-app-argon-config',
+    desc: 'argon主题设置',
   },
+//   {
+//     name: 'luci-app-store',
+//     desc: '应用商店',
+//   },
   {
     name: 'luci-app-ramfree',
     desc: '释放内存',
@@ -73,10 +73,10 @@ module.exports = [
   //   name: 'luci-app-advancedsetting',
   //   desc: '系统高级设置',
   // },
- // {
-  //  name: 'luci-app-ttyd',
-  //  desc: 'ttyd 终端',
-  //},
+  {
+    name: 'luci-app-ttyd',
+    desc: 'ttyd 终端',
+  },
   // {
   //   name: 'luci-app-unblockneteasemusic',
   //   desc: '解锁网易云音乐 (无界面)',
