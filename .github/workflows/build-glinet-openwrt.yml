@@ -15,7 +15,7 @@ on:
 
 env:
   UPLOAD_FIRMWARE: true
-  UPLOAD_WETRANSFER: true
+  UPLOAD_WETRANSFER: flase
   UPLOAD_RELEASE: true
 
 jobs:
@@ -66,16 +66,6 @@ jobs:
       with:
         name: OpenWrt_packages${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: ${{ env.PACKAGES }}
-
-    - name: Upload firmware to WeTransfer
-      id: wetransfer
-      if: steps.organize.outputs.status == 'success' && env.UPLOAD_WETRANSFER == 'true' && !cancelled() && !failure()
-      run: |
-        curl -fsSL git.io/file-transfer | sh
-        ./transfer wet -s -p 16 --no-progress ${FIRMWARE} 2>&1 | tee wetransfer.log
-        echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
-        echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
-
 
     - name: Upload firmware to release
       uses: softprops/action-gh-release@v1
