@@ -12,14 +12,11 @@ on:
     branches:
       - master
 
-  # schedule:
-  #   - cron: 0 16 * * *
 
 env:
   UPLOAD_FIRMWARE: true
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
 
 jobs:
   build:
