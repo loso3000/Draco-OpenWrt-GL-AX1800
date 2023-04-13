@@ -8,7 +8,7 @@ on:
     paths:
       - 'scripts/*'
     branches:
-      - master
+      - main
 
   schedule:
     - cron: 0 16 * * *
