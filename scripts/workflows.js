@@ -5,19 +5,19 @@
  * @target 官方 target_wlan_ap 配置文件名称 profiles 目录下
  * @official 是否支持官方编译界面
  */
- module.exports = [
+module.exports = [
   {
     model: 'ax1800',
     config: 'config-wlan-ap',
     target: 'target_wlan_ap-gl-ax1800',
     official: true,
   },
-  {
-    model: 'axt1800',
-    config: 'config-wlan-ap',
-    target: 'target_wlan_ap-gl-axt1800',
-    official: true,
-  },
+  //  {
+  //   model: 'axt1800',
+  //   config: 'config-wlan-ap',
+  //   target: 'target_wlan_ap-gl-axt1800',
+  //  official: true,
+  //   },
   // {
   //   model: 'ax1800',
   //   config: 'config-wlan-ap-5.4',
@@ -54,17 +54,17 @@
   //   target: 'target_ath79_gl-s200',
   //   official: true,
   // },
-     {
+  {
        model: 'sf1200',
        config: 'config-siflower-18.x',
        target: 'target_siflower_gl-sf1200',
        official: false,
-     },
-     {
-       model: 'sft1200',
-       config: 'config-siflower-18.x',
-       target: 'target_siflower_gl-sft1200',
-       official: false,
+  },
+  // {
+  //   model: 'sft1200',
+  //   config: 'config-siflower-18.x',
+  //   target: 'target_siflower_gl-sft1200',
+  //   official: false,
   // },
   // {
   //   model: 'mt1300',
