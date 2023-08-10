@@ -15,13 +15,19 @@ packages:
   - luci-theme-argon
   - luci-app-argon-config
   - luci-app-ramfree
-  - luci-app-wol
+  - luci-app-vlmcsd
   - luci-app-diskman
-  - luci-app-netgear
+  - luci-app-smartdns
   - luci-app-openclash
+  - luci-app-aria2
+  - luci-app-zerotier
+  - luci-app-turboacc
+  - luci-app-xlnetacc
+  - luci-app-cpufreq
   - luci-app-ttyd
   - luci-app-passwall
-  - luci-app-vlmcsd
+  - luci-app-serverchan
+  - luci-app-transmission
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
