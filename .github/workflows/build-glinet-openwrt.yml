@@ -24,7 +24,7 @@ jobs:
 
     strategy:
       matrix:
-        device: [target_wlan_ap-gl-ax1800, target_siflower_gl-sf1200]
+        device: [target_wlan_ap-gl-ax1800]
         ui: [false]
 
     steps:
