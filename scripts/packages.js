@@ -22,8 +22,8 @@ module.exports = [
     desc: '释放内存',
   },
   {
-    name: 'luci-app-wol',
-    desc: 'wol 网络唤醒',
+    name: 'luci-app-vlmcsd',
+    desc: '激活工具',
   },
   {
     name: 'luci-app-diskman',
