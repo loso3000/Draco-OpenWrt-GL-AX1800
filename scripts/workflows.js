@@ -12,12 +12,12 @@ module.exports = [
     target: 'target_wlan_ap-gl-ax1800',
     official: true,
   },
-  //  {
-  //   model: 'axt1800',
-  //   config: 'config-wlan-ap',
-  //   target: 'target_wlan_ap-gl-axt1800',
-  //  official: true,
-  //   },
+  {
+    model: 'axt1800',
+    config: 'config-wlan-ap',
+    target: 'target_wlan_ap-gl-axt1800',
+    official: true,
+  },
   // {
   //   model: 'ax1800',
   //   config: 'config-wlan-ap-5.4',
@@ -54,12 +54,12 @@ module.exports = [
   //   target: 'target_ath79_gl-s200',
   //   official: true,
   // },
-  {
-       model: 'sf1200',
-       config: 'config-siflower-18.x',
-       target: 'target_siflower_gl-sf1200',
-       official: false,
-  },
+  // {
+  //   model: 'sf1200',
+  //   config: 'config-siflower-18.x',
+  //   target: 'target_siflower_gl-sf1200',
+  //   official: false,
+  // },
   // {
   //   model: 'sft1200',
   //   config: 'config-siflower-18.x',
