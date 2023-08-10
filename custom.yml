@@ -17,17 +17,11 @@ packages:
   - luci-app-ramfree
   - luci-app-wol
   - luci-app-diskman
-  - luci-app-smartdns
+  - luci-app-netgear
   - luci-app-openclash
-  - luci-app-aria2
-  - luci-app-zerotier
-  - luci-app-turboacc
-  - luci-app-xlnetacc
-  - luci-app-cpufreq
   - luci-app-ttyd
   - luci-app-passwall
-  - luci-app-serverchan
-  - luci-app-transmission
+  - luci-app-vlmcsd
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
