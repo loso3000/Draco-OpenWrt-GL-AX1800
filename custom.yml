@@ -10,7 +10,7 @@ feeds:
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: fe4871e525bbbe3215c80de6f890d03e4f1caa4a
+    revision: bc3a0333a54ed10cfbe2170364f4e0cd983761b7
 packages:
   - luci-theme-argon
   - luci-app-argon-config
