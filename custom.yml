@@ -2,7 +2,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 57ad34795e973d7f7937ebb2fd643a9c3b025836
+    revision: 8137f02289917f02952d69dee60664b21c9dff9f
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
@@ -10,7 +10,7 @@ feeds:
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: f6cbbb0202586dd9ff4e24ccf373670fe3f855ee
+    revision: afad9c6c8747f907603c463bd0cd2e751d46b4c7
 packages:
   - luci-theme-argon
   - luci-app-argon-config
